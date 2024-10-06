@@ -8,9 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <link rel="stylesheet" href="{% static 'pico.jade.min.css' %}">
-  <link
+  <!-- <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"> -->
   <script src="{% static 'htmx.v2.0.0.min.js' %}"></script>
   <title>QuickStatements 3.0</title>
   <style>
@@ -22,6 +22,12 @@
     }
 
     {% block css %}
+    [role="button"], [type="submit"] {
+      --pico-primary: blue;
+      --pico-primary-background: blue;
+      --pico-primary-hover: blue;
+      --pico-primary-hover-background: navy;
+    }
     {% endblock %}
     
   </style>
