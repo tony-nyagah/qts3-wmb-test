@@ -20,19 +20,24 @@ The top right corner of the page displays:
 
 ## Main Features
 
-### 1. New Batch Creation
+### 1. User Login
+
+- A prominent "Login" button is available
+- Clicking this button takes users to the login page
+
+### 2. New Batch Creation
 
 - A prominent "New batch" button is available
 - Clicking this button takes users to the page for creating a new batch of edits
 
-### 2. Batch Details Lookup
+### 3. Batch Details Lookup
 
 Users can look up details of a specific batch:
 
 - Input field for entering a Batch ID (numeric only)
 - "See batch details" button to view information about the entered batch
 
-### 3. User Batches Lookup
+### 4. User Batches Lookup
 
 Users can search for batches associated with a specific username:
 
